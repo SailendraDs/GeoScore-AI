@@ -1,0 +1,31 @@
+{
+  "tasks": {
+    "test": "deno test --allow-net --allow-env --allow-read tests/unit/",
+    "test:auth": "deno test --allow-net --allow-env --allow-read tests/unit/auth-brand.test.ts",
+    "test:llm": "deno test --allow-net --allow-env --allow-read tests/unit/llm-reports.test.ts",
+    "test:analytics": "deno test --allow-net --allow-env --allow-read tests/unit/analytics.test.ts",
+    "test:admin": "deno test --allow-net --allow-env --allow-read tests/unit/admin-billing.test.ts",
+    "test:watch": "deno test --allow-net --allow-env --allow-read --watch tests/unit/",
+    "test:coverage": "deno test --allow-net --allow-env --allow-read --coverage=coverage tests/unit/",
+    "test:filter": "deno test --allow-net --allow-env --allow-read --filter",
+    "test:parallel": "deno test --allow-net --allow-env --allow-read --parallel tests/unit/",
+    "coverage": "deno coverage coverage --lcov > coverage.lcov"
+  },
+  "fmt": {
+    "files": {
+      "include": ["tests/", "supabase/functions/"],
+      "exclude": ["coverage/"]
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["tests/", "supabase/functions/"],
+      "exclude": ["coverage/"]
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["tests/"]
+    }
+  }
+}

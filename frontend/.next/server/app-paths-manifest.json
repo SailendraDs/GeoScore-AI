@@ -1,0 +1,18 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/auth/forgot-password/page": "app/auth/forgot-password/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/auth/update-password/page": "app/auth/update-password/page.js",
+  "/page": "app/page.js",
+  "/auth/callback/page": "app/auth/callback/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/users/page": "app/admin/users/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/auth/check-email/page": "app/auth/check-email/page.js",
+  "/reports/page": "app/reports/page.js",
+  "/competitors/page": "app/competitors/page.js",
+  "/onboard/page": "app/onboard/page.js",
+  "/reports/[id]/page": "app/reports/[id]/page.js",
+  "/prompts/page": "app/prompts/page.js"
+}
